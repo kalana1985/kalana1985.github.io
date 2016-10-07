@@ -1,6 +1,6 @@
 body{
 
-	background-color: red;
+	background-color: #85ecf1;
 	border:solid black;
 	border-radius:30px;
 	margin-left:auto;
@@ -11,8 +11,8 @@ body{
 	margin:20px 40px 20px 40px;
 }
 body>header{
-
-	text-align:center;
+    text-align:center;
+    display:inline;
 	
 }
 .work1,.work2,.work3{
@@ -49,20 +49,16 @@ body>header{
 a:hover{
 	color:green;
 }
-.ref1,.ref2,.ref3 >div{
-   font-style: italic;
+.ref1,.ref2,.ref3 {
+   
    font-size:20px;
+   display:inline-block;
+   width:25%;
+
    
 }
-a{
-   
-}
+
 h1{
     margin:150px;
-
-}
-.ref3{
-	font-style: italic;
-   font-size:20px;
 
 }
